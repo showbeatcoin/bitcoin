@@ -12,7 +12,7 @@
 			<!-- general form elements -->
 			<div class="box box-primary">
 				<div class="box-header">
-					<h3 class="box-title">Home page입니다</h3>
+					<h3 class="box-title">Home page입니다.!!</h3>
 				</div>
 				<!-- /.box-header -->
 			</div>
