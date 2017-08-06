@@ -13,30 +13,6 @@
 		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd
 		http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc-4.3.xsd">
 	
-	<!-- 5. 스프링 빈 등록하기 위해서 추가 -->
-	<context:component-scan base-package="com.spring.mybatis.**"></context:component-scan>
 
-	<!-- 1. DataSource 설정추가하고 JUnit 연결 테스트하기 -->
-	<bean id="dataSource"
-		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-		<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"></property>
-		<property name="url" value="jdbc:oracle:thin:@127.0.0.1:1521:xe"></property>
-		<property name="username" value="hr"></property>
-		<property name="password" value="hr"></property>
-	</bean>
-	
-	<!-- 2. MyBatis 연동을 위한 추가 -->
-	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
-        		<property name="dataSource" ref="dataSource" />
-        		<!-- 3. resource에 mybatis-config.xml 만들고 추가하기 -->
-        		<property name="configLocation" value="classpath:mybatis-config.xml" />
-		<!-- 4. resource에 mappers 디렉토리를 만들고 추가하기 mybatis dqm -->
-        		<property name="mapperLocations" value="classpath:mappers/**/*Mapper.xml" /> <!-- 원래 Dao에 자바와 sql구문이 있지만 mybatis를 사용함으로써 sql구문이 mapper에 들어가 있다. -->
-    	</bean>
-
-	<!-- 6. @repository 에서 의존성 주입을 위한 설정 -->
-    	<bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate" destroy-method="clearCache">
-		<constructor-arg name="sqlSessionFactory" ref="sqlSessionFactory"></constructor-arg>
-	</bean>
     
 </beans>
