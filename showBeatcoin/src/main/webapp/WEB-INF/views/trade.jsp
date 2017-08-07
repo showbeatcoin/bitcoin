@@ -37,7 +37,14 @@
 	   	
 	   	<div class="content">
 	   	거래페이지
+<<<<<<< HEAD
 	   	123123
+=======
+	   	
+	   	commit 테스트22233331211
+	   	브랜치 테스트
+	   	어떻게 하지
+>>>>>>> refs/remotes/origin/Hyemin
 	   	<%@include file="./include/footer.jsp"%>
 		</div>
 	</div>
