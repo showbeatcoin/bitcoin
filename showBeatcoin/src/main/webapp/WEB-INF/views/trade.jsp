@@ -37,6 +37,7 @@
 	   	
 	   	<div class="content">
 	   	거래페이지
+	   	123123
 	   	<%@include file="./include/footer.jsp"%>
 		</div>
 	</div>
