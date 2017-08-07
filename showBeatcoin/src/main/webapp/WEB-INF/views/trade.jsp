@@ -40,6 +40,7 @@
 	   	
 	   	commit 테스트22233331211
 	   	브랜치 테스트
+	   	어떻게 하지
 	   	<%@include file="./include/footer.jsp"%>
 		</div>
 	</div>
