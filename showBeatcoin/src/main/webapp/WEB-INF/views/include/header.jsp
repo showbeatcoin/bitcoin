@@ -7,7 +7,7 @@
 
 	<div class="logo">
 		<a href="http://www.creative-tim.com" class="simple-text"> Beat
-			Coin </a>
+			Coin22222 </a>
 	</div>
 
 	<div class="sidebar-wrapper">
