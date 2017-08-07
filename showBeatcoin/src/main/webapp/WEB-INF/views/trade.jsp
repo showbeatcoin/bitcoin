@@ -29,15 +29,14 @@
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300|Material+Icons' rel='stylesheet' type='text/css'>
 </head>
-
+<!-- 영호형은 멋쟁이 -->
 <body>
 
 	<div class="wrapper">
 	   	<%@include file="./include/header.jsp"%>
 	   	
 	   	<div class="content">
-	   	거래페이지
-	   	123123
+
 	   	<%@include file="./include/footer.jsp"%>
 		</div>
 	</div>
