@@ -38,7 +38,7 @@
 	   	<div class="content">
 	   	거래페이지
 	   	
-	   	commit 테스트
+	   	commit 테스트222
 	   	<%@include file="./include/footer.jsp"%>
 		</div>
 	</div>
