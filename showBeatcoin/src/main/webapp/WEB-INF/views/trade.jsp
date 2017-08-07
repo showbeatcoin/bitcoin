@@ -37,10 +37,14 @@
 	   	
 	   	<div class="content">
 	   	거래페이지
+
 	   	
 	   	commit 테스트22233331211
 	   	브랜치 테스트
 	   	어떻게 하지
+		
+		다시 한 번 바꾸기!!!!
+
 	   	<%@include file="./include/footer.jsp"%>
 		</div>
 	</div>
