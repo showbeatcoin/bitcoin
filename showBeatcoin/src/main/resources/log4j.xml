@@ -11,7 +11,7 @@
 	</appender>
 	
 	<!-- Application Loggers -->
-	<logger name="com.show.beatcoin">
+	<logger name="com.show.beat">
 		<level value="info" />
 	</logger>
 	

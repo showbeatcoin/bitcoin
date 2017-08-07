@@ -27,7 +27,7 @@
 		
 	<servlet-mapping>
 		<servlet-name>appServlet</servlet-name>
-		<url-pattern>*.do</url-pattern>
+		<url-pattern>/</url-pattern>
 	</servlet-mapping>
 	
 	<filter>
@@ -41,7 +41,6 @@
 	
 	<filter-mapping>
     	<filter-name>encodingFilter</filter-name>
-   		<url-pattern>/* </url-pattern> <!-- /* 는 모든 url에 대해 필터를 동작한다는 뜻 -->
+   		<url-pattern>/* </url-pattern>
   	</filter-mapping>
-
 </web-app>

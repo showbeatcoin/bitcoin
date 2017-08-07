@@ -7,7 +7,7 @@
 	<name>showBeatcoin</name>
 	<packaging>war</packaging>
 	<version>1.0.0-BUILD-SNAPSHOT</version>
-	<!-- test -->
+	
 		<!-- oracle db repository 추가  -->
 	<repositories>
 		<repository>
